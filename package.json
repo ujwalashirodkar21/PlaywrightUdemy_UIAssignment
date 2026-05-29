@@ -1,0 +1,18 @@
+{
+  "name": "playwrightudemy01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "QAAssignment1" : "npx playwright test tests/FullBookingEventFlow.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.3.3",
+    "allure-playwright": "^3.9.0"
+  }
+}
